@@ -1624,6 +1624,10 @@ func RefreshRatesRead(buf []byte, v *RefreshRates) int {
 
 // RefreshRatesReadList reads a byte slice into a list of RefreshRates values.
 func RefreshRatesReadList(buf []byte, dest []RefreshRates) int {
+	if len(buf) < 1 {
+		return 0
+	}
+
 	b := 0
 	for i := 0; i < len(dest); i++ {
 		dest[i] = RefreshRates{}
