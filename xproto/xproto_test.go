@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jezek/xgb"
+	"github.com/Rom4eg/xgb"
 )
 
 // The X connection used throughout testing.

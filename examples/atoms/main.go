@@ -9,8 +9,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/jezek/xgb"
-	"github.com/jezek/xgb/xproto"
+	"github.com/Rom4eg/xgb"
+	"github.com/Rom4eg/xgb/xproto"
 )
 
 var (

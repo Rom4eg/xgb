@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jezek/xgb"
-	"github.com/jezek/xgb/xproto"
+	"github.com/Rom4eg/xgb"
+	"github.com/Rom4eg/xgb/xproto"
 )
 
 func main() {

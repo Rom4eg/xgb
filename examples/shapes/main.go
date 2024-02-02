@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"unicode/utf16"
 
-	"github.com/jezek/xgb"
-	"github.com/jezek/xgb/xproto"
+	"github.com/Rom4eg/xgb"
+	"github.com/Rom4eg/xgb/xproto"
 )
 
 func main() {
@@ -273,8 +273,10 @@ func main() {
 }
 
 // Char2b is defined as
-// 	Byte1 byte
-// 	Byte2 byte
+//
+//	Byte1 byte
+//	Byte2 byte
+//
 // and is used as a utf16 character.
 // This function takes a string and converts each rune into a char2b.
 func convertStringToChar2b(s string) []xproto.Char2b {
